@@ -1,0 +1,43 @@
+.home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+  }
+  
+  .home-box {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+  }
+  
+  .home-box h2 {
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .home-box p {
+    color: #555;
+    margin-bottom: 20px;
+    font-size: 16px;
+  }
+  
+  .logout-button {
+    padding: 10px 20px;
+    background: #ff416c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+  }
+  
+  .logout-button:hover {
+    background: #ff4b2b;
+  }
+  
